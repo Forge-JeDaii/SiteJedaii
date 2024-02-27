@@ -223,3 +223,43 @@ section {
     transition: 0.2s;
   }
 }
+
+/*Section for div*/
+/* Ajoutez ces styles à votre fichier style.css */
+
+/* Styles communs à toutes les sections */
+.section {
+  width: 100%;
+  padding: 100px 0; /* Ajustez le padding selon vos besoins */
+  text-align: center;
+}
+
+.section-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Styles pour la section Forge Je'Daii */
+#fj {
+  background-color: #ffd700; /* Jaune */
+  color: #333; /* Couleur de texte */
+}
+
+/* Styles pour la section Académie de la Force */
+#af {
+  background-color: #4d9559; /* Vert */
+  color: #fff; /* Couleur de texte */
+}
+
+/* Styles pour la section Boutique */
+#boutique {
+  background-color: #0077cc; /* Bleu */
+  color: #fff; /* Couleur de texte */
+}
+
+/* Styles pour les sections en mode portrait */
+@media (max-width: 768px) {
+  .section {
+    padding: 80px 0; /* Réduire le padding pour les écrans plus petits */
+  }
+}
